@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie: Stream & Watch</title>
+
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="desktop-box">
+      <header class="header">
+        <nav class="header-nav wrapper">
+          <h1>LOGO</h1>
+          <div class="center-nav">
+            <img
+              src="./icon/grid-blue.png"
+              alt=""
+              width="30"
+              height="30"
+              class="grid"
+              onclick="selectIcon(1)"
+            />
+            <img
+              src="./icon/movie-white.png"
+              alt=""
+              width="26"
+              height="26"
+              class="movie"
+              onclick="selectIcon(2)"
+            />
+            <img
+              src="./icon/hot-blue.png"
+              alt=""
+              width="30"
+              height="30"
+              class="hot"
+              onclick="selectIcon(3)"
+            />
+            <img
+              src="./icon/bookmark-blue.png"
+              alt=""
+              width="30"
+              height="30"
+              class="bookmark"
+              onclick="selectIcon(4)"
+            />
+          </div>
+        </nav>
+      </header>
+
+      <main class="main">
+        <div class="main-content wrapper">
+          <form action="post">
+            <input
+              type="search"
+              class="search"
+              placeholder="Search for movies or TV series"
+            />
+          </form>
+
+          <div class="grid-view">
+            <section class="trending-section">
+              <h2 class="content-headding">Trending</h2>
+              <div class="trending">
+                <div>
+                  <div class="thumbnail">
+                    <img src="./img/trending/pic1.jpg" alt="" class="thumb" />
+                    <img
+                      src="./icon/bookmark-line-white.png"
+                      alt=""
+                      class="icon"
+                    />
+
+                    <div class="trending-text">
+                      <span>2019</span><span>Movie</span>
+                    </div>
+                  </div>
+
+                  <div class="thumbnail">
+                    <img src="./img/trending/pic2.jpg" alt="" class="thumb" />
+                    <img
+                      src="./icon/bookmark-line-white.png"
+                      alt=""
+                      class="icon"
+                    />
+
+                    <div class="trending-text">
+                      <span>2019</span><span>Movie</span>
+                    </div>
+                  </div>
+
+                  <div class="thumbnail">
+                    <img src="./img/trending/pic3.jpg" alt="" class="thumb" />
+                    <img
+                      src="./icon/bookmark-line-white.png"
+                      alt=""
+                      class="icon"
+                    />
+
+                    <div class="trending-text">
+                      <span>2019</span><span>Movie</span>
+                    </div>
+                  </div>
+
+                  <div class="thumbnail">
+                    <img src="./img/trending/pic5.webp" alt="" class="thumb" />
+                    <img
+                      src="./icon/bookmark-line-white.png"
+                      alt=""
+                      class="icon"
+                    />
+
+                    <div class="trending-text">
+                      <span>2019</span><span>Movie</span>
+                    </div>
+                  </div>
+
+                  <div class="thumbnail">
+                    <img src="./img/trending/pic6.jpg" alt="" class="thumb" />
+                    <img
+                      src="./icon/bookmark-line-white.png"
+                      alt=""
+                      class="icon"
+                    />
+
+                    <div class="trending-text">
+                      <span>2019</span><span>Movie</span>
+                    </div>
+                  </div>
+
+                  <div class="thumbnail lasth-thum">
+                    <img src="./img/trending/pic4.jpg" alt="" class="thumb" />
+                    <img
+                      src="./icon/bookmark-line-white.png"
+                      alt=""
+                      class="icon"
+                    />
+
+                    <div class="trending-text">
+                      <span>2019</span><span>Movie</span>
+                    </div>
+                  </div>
+
+                  <div class="thumbnail"></div>
+                </div>
+              </div>
+            </section>
+
+            <!--Recomend section-->
+            <section class="recomend-sectoin">
+              <h2 class="content-headding">Recommended for you</h2>
+
+              <div class="recomend-grid">
+                <div class="recomend-box">
+                  <img src="./img/recomend/pic1.jpg" alt="" class="recomend-pic"/>
+                  <img
+                    src="./icon/bookmark-line-white.png"
+                    alt=""
+                    class="rec-bookmark"
+                  />
+                  <div><span>2019</span><span>Movie</span></div>
+                  <h3>Time is The Enamy</h3>
+                </div>
+
+                <div class="recomend-box">
+                  <img src="./img/recomend/pic2.webp" alt="" class="recomend-pic"/>
+                  <img
+                    src="./icon/bookmark-line-white.png"
+                    alt=""
+                    class="rec-bookmark"
+                  />
+                  <div><span>2019</span><span>Movie</span></div>
+                  <h3>seven lost</h3>
+                </div>
+
+                <div class="recomend-box">
+                  <img src="./img/recomend/pic3.jpg" alt="" class="recomend-pic" />
+                  <img
+                    src="./icon/bookmark-line-white.png"
+                    alt=""
+                    class="rec-bookmark"
+                  />
+                  <div><span>2019</span><span>Movie</span></div>
+                  <h3>captain america</h3>
+                </div>
+
+                <div class="recomend-box">
+                  <img src="./img/recomend/pic4.jpg" alt="" class="recomend-pic" />
+                  <img
+                    src="./icon/bookmark-line-white.png"
+                    alt=""
+                    class="rec-bookmark"
+                  />
+                  <div><span>2019</span><span>Movie</span></div>
+                  <h3>URI</h3>
+                </div>
+
+                <div class="recomend-box">
+                  <img src="./img/trending/pic1.jpg" alt=""  class="recomend-pic"/>
+                  <img
+                    src="./icon/bookmark-line-white.png"
+                    alt=""
+                    class="rec-bookmark"
+                  />
+                  <div><span>2019</span><span>Movie</span></div>
+                  <h3>The Great Lands</h3>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <footer class="wrapper">
+      <hr />
+      <p>Coppyright @2023</p>
+    </footer>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
